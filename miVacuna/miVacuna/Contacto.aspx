@@ -58,7 +58,14 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2>Contacto</h2>
+            <h2>
+                <asp:Label ID="Label21" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Contacto"></asp:Label>
+            </h2>
+            
+            <asp:Panel ID="Panel1" runat="server" Height="375px">
+                ¿Tienes dudas? ¡Contactanos!
+                <br />
+            </asp:Panel>
             
         </div>
     </form>
