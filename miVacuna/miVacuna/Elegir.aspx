@@ -59,7 +59,7 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2>Elección de fecha y lugar</h2>
+            <h2 style="background-color: #999966">Elección de fecha y lugar</h2>
             <br />
             Estado<br />
             <asp:DropDownList ID="ddlEdo" runat="server" >
@@ -81,7 +81,7 @@ body {font-family: "Lato", sans-serif;}
             <br />
             <br />
             <br />
-            <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" />
+            <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" BackColor="#00CC00" BorderColor="Black" />
         </div>
     </form>
 </body>
