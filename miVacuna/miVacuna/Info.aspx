@@ -57,7 +57,7 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">         
-            <h2>Información</h2>
+            <h2 style="background-color: #999966; width: 715px; position: relative; top: 0px; left: -18px;">Información</h2>
         </div>
     </form>
 </body>
