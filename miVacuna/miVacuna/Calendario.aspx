@@ -42,6 +42,9 @@ body {font-family: "Lato", sans-serif;}
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+ #f1 {
+            background-color: #999966;
+        }
 </style>
 </head>
 <body>
