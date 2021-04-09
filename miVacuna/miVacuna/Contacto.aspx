@@ -58,7 +58,7 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2 style="background-color: #999966; position: relative; top: 0px; left: -17px; width: 691px;">Contacto</h2>
+            <h2>Contacto</h2>
             
         </div>
     </form>
