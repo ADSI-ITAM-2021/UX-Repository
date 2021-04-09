@@ -22,9 +22,14 @@ namespace miVacuna
                 if (!IsPostBack)
                 {
                     // Cargamos ddl
-                    ddlEdo.Items.Add("Edo");
-                    ddlMun.Items.Add("Mun");
-                    ddlLugar.Items.Add("Lugar1");
+                    ddlEdo.Items.Add("CDMX");
+                    ddlEdo.Items.Add("Estado de México");
+                    ddlMun.Items.Add("Mun 1");
+                    ddlMun.Items.Add("Mun 2");
+                    ddlMun.Items.Add("Mun 3");
+                    ddlLugar.Items.Add("Lugar 1");
+                    ddlLugar.Items.Add("Lugar 2");
+                    ddlLugar.Items.Add("Lugar 3");
                 }
             }
             else

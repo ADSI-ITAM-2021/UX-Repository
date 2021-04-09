@@ -34,8 +34,13 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  padding: 0px 10px;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
 }
 
 @media screen and (max-height: 450px) {

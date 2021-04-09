@@ -115,3 +115,4 @@ C:\Users\anair\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.c
 C:\Users\anair\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.csproj.CopyComplete
 C:\Users\anair\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.dll
 C:\Users\anair\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.pdb
+C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.csprojAssemblyReference.cache
