@@ -77,10 +77,10 @@ body {font-family: "Lato", sans-serif;}
             <p style="height: 312px">
                 <asp:Label ID="Label17" runat="server" Font-Names="Arial" Font-Size="X-Large" Text="¿Cómo funciona?" Font-Bold="True" style="z-index: 1; left: 182px; top: 622px; position: absolute"></asp:Label>
                 <asp:Label ID="Label18" runat="server" Font-Names="Arial" Font-Size="X-Large" Text="¿Cómo funciona?" Font-Bold="True" style="z-index: 1; left: 182px; top: 622px; position: absolute"></asp:Label>
-                <asp:Image ID="Image1" runat="server" Height="108px" style="z-index: 1; left: 201px; top: 817px; position: absolute" Width="155px" />
-                <asp:Image ID="Image2" runat="server" Height="108px" style="z-index: 1; left: 907px; top: 819px; position: absolute" Width="155px" />
-                <asp:Image ID="Image3" runat="server" Height="108px" style="z-index: 1; top: 818px; position: absolute; left: 428px" Width="155px" />
-                <asp:Image ID="Image4" runat="server" Height="108px" style="z-index: 1; left: 668px; top: 818px; position: absolute; margin-top: 0px" Width="155px" />
+                <asp:Image ID="Image1" runat="server" style="z-index: 1; left: 201px; top: 817px; position: absolute; height: 126px; width: 131px;" ImageUrl="~/images/yo.png" />
+                <asp:Image ID="Image2" runat="server" style="z-index: 1; left: 912px; top: 824px; position: absolute; height: 122px; width: 129px;" ImageUrl="~/images/mundo.jpg" />
+                <asp:Image ID="Image3" runat="server" style="z-index: 1; top: 818px; position: absolute; left: 428px; height: 126px; width: 153px;" ImageUrl="~/images/todos.png" />
+                <asp:Image ID="Image4" runat="server" style="z-index: 1; left: 653px; top: 818px; position: absolute; margin-top: 0px; height: 125px; width: 170px;" ImageUrl="~/images/erradicar.jpg" />
                 <asp:Label ID="Label19" runat="server" style="z-index: 1; left: 200px; top: 948px; position: absolute; height: 43px; width: 160px; right: 786px;" Text="Nos protegemos a nosotros mismos" Font-Size="Large"></asp:Label>
                 <asp:Label ID="Label20" runat="server" style="z-index: 1; left: 905px; top: 952px; position: absolute; height: 43px; width: 178px; margin-top: 2px;" Text="Beneficiamos a la economía" Font-Size="Large"></asp:Label>
                 <asp:Label ID="Label21" runat="server" style="z-index: 1; left: 431px; top: 950px; position: absolute; height: 43px; width: 160px" Text="Protegemos a los que nos rodean" Font-Size="Large"></asp:Label>
