@@ -52,7 +52,6 @@ C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\bin\roslyn\VBCSCom
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.csprojAssemblyReference.cache
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.csproj.CoreCompileInputs.cache
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.csproj.CopyComplete
 C:\Users\Yosshua\source\repos\UX-Repository\miVacuna\miVacuna\obj\Debug\miVacuna.dll
