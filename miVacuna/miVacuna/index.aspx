@@ -57,8 +57,8 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2>Registro de vacunación</h2>
-            <asp:Button ID="btnReg" runat="server" Text="Registrarme" OnClick="btnReg_Click" />
+            <h2 style="background-color: #999966; position: relative; top: 0px; left: -18px; width: 692px;">Registro de vacunación</h2>
+            <asp:Button ID="btnReg" runat="server" Text="Quiero vacunarme" OnClick="btnReg_Click" BackColor="#00CC00" BorderColor="Black" BorderStyle="Solid" Height="109px" style="font-size: xx-large; font-family: Arial, Helvetica, sans-serif; position: relative; top: 0px; left: 65px; background-color: #7DFF9E;" Width="709px" />
         </div>
     </form>
 </body>

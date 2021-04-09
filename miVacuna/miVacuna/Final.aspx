@@ -57,8 +57,9 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2>Haz finalizado tu registro. Te enviamos un correo de confirmación.</h2>
+            <h2 style="background-color: #999966">Haz finalizado tu registro. Te enviamos un correo de confirmación.</h2>
         </div>
     </form>
 </body>
 </html>
+
