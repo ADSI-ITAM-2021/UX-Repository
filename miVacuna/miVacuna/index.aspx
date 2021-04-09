@@ -36,7 +36,8 @@ body {font-family: "Lato", sans-serif;}
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   padding: 0px 10px;
-}
+            height: 292px;
+        }
 
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
@@ -57,8 +58,11 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2 style="background-color: #999966; position: relative; top: 0px; left: -18px; width: 692px;">Registro de vacunación</h2>
-            <asp:Button ID="btnReg" runat="server" Text="Quiero vacunarme" OnClick="btnReg_Click" BackColor="#00CC00" BorderColor="Black" BorderStyle="Solid" Height="109px" style="font-size: xx-large; font-family: Arial, Helvetica, sans-serif; position: relative; top: 0px; left: 65px; background-color: #7DFF9E;" Width="709px" />
+            <h2 style="background-color: #999966; position: relative; top: 0px; left: -18px; width: 692px;">
+                <asp:Label ID="Label2" runat="server" Font-Size="XX-Large" Text="Vacunación Covid"></asp:Label>
+            </h2>
+            <asp:Label ID="Label1" runat="server" Font-Size="X-Large" style="z-index: 3; left: 458px; top: 200px; position: absolute" Text="Dar click aquí"></asp:Label>
+            <asp:Button ID="btnReg" runat="server" Text="Registro de vacunación " OnClick="btnReg_Click" BackColor="#3366FF" BorderColor="#3333CC" BorderStyle="Outset" style="font-size: xx-large; font-family: Arial, Helvetica, sans-serif; position: absolute; top: 93px; left: 185px; background-color: #7DFF9E; height: 161px; z-index: 2;" Width="709px" />
         </div>
     </form>
 </body>

@@ -58,7 +58,19 @@ body {font-family: "Lato", sans-serif;}
         </div>
 
         <div class="main">
-            <h2>Contacto</h2>
+            <h2>
+                <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Contacto"></asp:Label>
+            </h2>
+            
+            <asp:Panel ID="Panel1" runat="server" Height="353px">
+                <asp:Label ID="Label2" runat="server" Text="¿Tienes dudas? ¡Contáctanos!" Font-Bold="True" Font-Size="X-Large" style="z-index: 1; left: 189px; top: 90px; position: absolute"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Font-Size="X-Large" style="z-index: 1; left: 381px; top: 142px; position: absolute" Text="Teléfono: 1800700"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Font-Size="X-Large" style="z-index: 1; left: 385px; top: 302px; position: absolute" Text="Facebook: mivacUX"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Font-Size="X-Large" style="z-index: 1; left: 381px; top: 226px; position: absolute" Text="Email: mivacUX2021@gmail.com"></asp:Label>
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/images/tel.jpg" style="z-index: 1; left: 273px; top: 127px; position: absolute; height: 64px; width: 86px" />
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/correo.png" style="z-index: 1; left: 286px; top: 210px; position: absolute; height: 52px; width: 61px" />
+                <asp:Image ID="Image3" runat="server" ImageUrl="~/images/fc.jpg" style="z-index: 1; left: 286px; position: absolute; height: 55px; width: 62px; top: 286px" />
+            </asp:Panel>
             
         </div>
     </form>

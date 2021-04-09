@@ -72,6 +72,13 @@
     <Content Include="Contacto.aspx" />
     <Content Include="Elegir.aspx" />
     <Content Include="Final.aspx" />
+    <Content Include="images\correo.png" />
+    <Content Include="images\erradicar.jpg" />
+    <Content Include="images\fc.jpg" />
+    <Content Include="images\mundo.jpg" />
+    <Content Include="images\tel.jpg" />
+    <Content Include="images\todos.png" />
+    <Content Include="images\yo.png" />
     <Content Include="Index.aspx" />
     <Content Include="Info.aspx" />
     <Content Include="Registro.aspx" />
