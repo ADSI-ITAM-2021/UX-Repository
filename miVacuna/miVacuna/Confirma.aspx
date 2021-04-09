@@ -69,7 +69,7 @@ body {font-family: "Lato", sans-serif;}
             <br />
             <br />
             <strong style="background-color: #CCCCCC">NOMBRE</strong>
-            <asp:TextBox ID="txtNom" runat="server" ReadOnly="true" style="position: relative; top: 4px; left: 14px; width: 256px">Tu nombre</asp:TextBox>
+            <asp:TextBox ID="txtNom" runat="server" ReadOnly="true" style="position: relative; top: 4px; left: 14px; width: 256px">Aqui debería aparecer tu nombre</asp:TextBox>
             <br />
             <br />
             <strong style="background-color: #CCCCCC">FECHA DE NACIMIENTO</strong>
