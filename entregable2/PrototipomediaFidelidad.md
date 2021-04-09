@@ -30,7 +30,7 @@ Al dar click sobre el menú en la opción de contacto se abre esta página. En e
 ![alt text](https://github.com/ADSI-ITAM-2021/UX-Repository/blob/main/entregable2/imgMD/contacto.png?raw=true)
 
 
-Finalmente, la opción de calendario de vacunación no esta habilitada aún
+Finalmente, la opción de calendario de vacunación no esta habilitada aún.
 
  
  
