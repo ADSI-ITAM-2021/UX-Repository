@@ -4,7 +4,7 @@
 
 ## **Página de inicio**
 
-Esta es la pantalla en la que se abre nuestra página web, lo primero que se muestra es el botón para registrarse al proceso de vacunación.
+Esta es la pantalla de inicio de nuestra página web, lo primero que se muestra es el botón para registrarse al proceso de vacunación.
 
 ![alt text](https://github.com/ADSI-ITAM-2021/UX-Repository/blob/main/entregable2/imgMD/inicio.png?raw=true)
 
