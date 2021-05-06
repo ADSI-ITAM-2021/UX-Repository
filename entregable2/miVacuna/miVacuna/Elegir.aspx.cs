@@ -13,7 +13,7 @@ namespace miVacuna
     {
         private string curp, correo, nombre;
         protected void Page_Load(object sender, EventArgs e)
-        {           
+        {
             if (Session["curp"] != null && Session["correo"] != null)
             {
                 curp = Session["curp"].ToString();

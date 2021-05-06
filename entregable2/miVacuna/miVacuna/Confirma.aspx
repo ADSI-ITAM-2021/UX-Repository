@@ -3,85 +3,136 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Stay-at-home, Mental Health, Plan, Best Selling Online Courses‎, Relax, This place is special..., contact us" />
+    <meta name="description" content="" />
+    <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>Mi vacuna</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="CSS/nicepage.css" media="screen" />
+    <link rel="stylesheet" href="CSS/Home.css" media="screen" />
+    <script class="u-script" type="text/javascript" src="JS/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="JS/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.13.2, nicepage.com" />
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" />
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i" />
+
+
+
+
     <style>
-body {font-family: "Lato", sans-serif;}
-
-.sidebar {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 16px;
-}
-
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  padding: 0px 10px;
-            height: 361px;
+        html{
+          height:100%;
         }
+        body{
+          height:100%;
+        }
+        .u-section-1 {
+            background-image: url("images/cf.jpg");
+            background-position: 50% 50%;
+            min-height: 668px;
+            height:100%;
+        }
+        .u-section-1 .u-image-1 {
+            min-height: 667px;
+            background-image: url("images/26w-min.jpg");
+            background-position: 0% 100%;
+            height:100%;
+        }
+    </style>
 
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-</style>
+
 </head>
 <body>
     <form id="f1" runat="server">
-        <div class="sidebar">
-            <a href="Index.aspx"><i class="fa fa-fw fa-home"></i>Inicio</a>
-            <br />
-            <a href="#services"><i class="fa fa-fw fa-info"></i>Información</a>
-            <br />
-            <a href="#clients"><i class="fa fa-fw fa-calendar"></i>Calendario de vacunación</a>
-            <br />
-            <a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contacto</a>
-        </div>
+        <header class="u-clearfix u-header u-header" id="sec-7ea4">
+            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+                <a href="Index.aspx" class="u-image u-logo u-image-1">
+                    <img src="images/miVac.png" class="u-logo-image u-logo-image-1" />
+                </a>
+                <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+                    <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+                        <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+                            <svg>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <defs>
+                                    <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
+                                        <rect y="1" width="16" height="2"></rect>
+                                        <rect y="7" width="16" height="2"></rect>
+                                        <rect y="13" width="16" height="2"></rect>
+                                    </symbol>
+                                </defs></svg>
+                        </a>
+                    </div>
+                    <div class="u-nav-container">
+                        <ul class="u-nav u-unstyled u-nav-1">
+                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Index.aspx" style="padding: 10px 20px;">Inicio</a>
+                            </li>
+                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Info.aspx" style="padding: 10px 20px;">Información</a>
+                            </li>
+                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Calendario.aspx" style="padding: 10px 20px;">Calendario</a>
+                            </li>
+                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contacto.aspx" style="padding: 10px 20px;">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="u-nav-container-collapse">
+                        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                            <div class="u-sidenav-overflow">
+                                <div class="u-menu-close"></div>
+                                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Index.aspx">Inicio</a>
+                                    </li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Info.aspx">Información</a>
+                                    </li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Calendario.aspx" style="padding: 10px 20px;">Calendario</a>
+                                    </li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacto.aspx">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="u-clearfix u-image u-valign-middle u-section-1" id="carousel_bd93" data-image-width="1980" data-image-height="1232">
+            <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+                <div class="u-layout">
+                    <div class="u-layout-row">
+                        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
+                            <div class="u-container-layout u-valign-middle u-container-layout-1">                                
+                                <h2 class="u-text u-text-2">Registro</h2>
+                                <br />
+                                <strong style="background-color: #CCCCCC">CURP</strong>
+                                <asp:TextBox ID="txtCurp" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 253px"></asp:TextBox>
+                                <br />
+                                <br />
+                                <strong style="background-color: #CCCCCC">CORREO </strong>
+                                <asp:TextBox ID="txtCorreo" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 253px"></asp:TextBox>
+                                <br />
+                                <br />
+                                <strong style="background-color: #CCCCCC">NOMBRE</strong>
+                                <asp:TextBox ID="txtNom" runat="server" ReadOnly="true" Style="position: relative; top: 4px; left: 15px; width: 256px">Aqui debería aparecer tu nombre</asp:TextBox>
+                                <br />
+                                <br />
+                                <strong style="background-color: #CCCCCC">FECHA DE NACIMIENTO</strong>
+                                <asp:TextBox ID="txtFecha" runat="server" Style="position: relative; top: 2px; left: 15px; width: 140px">Tu fecha de nacimiento</asp:TextBox>
+                                <br />
+                                <br />
+                                <asp:Button ID="btnConf" runat="server" Text="Confirmo que son mis datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" />
 
-        <div class="main">
-            <h2 style="background-color: #999966; position: relative; top: 0px; left: -19px; width: 693px;">Registro de vacunación</h2>
-            <br />
-            <strong style="background-color: #CCCCCC">CURP</strong>
-            <asp:TextBox ID="txtCurp" runat="server" ReadOnly="true" style="position: relative; top: 5px; left: 38px; width: 253px"></asp:TextBox>
-            <br />
-            <br />
-            <strong style="background-color: #CCCCCC">CORREO </strong>
-            <asp:TextBox ID="txtCorreo" runat="server" ReadOnly="true" style="position: relative; top: 5px; left: 15px; width: 253px"></asp:TextBox>
-            <br />
-            <br />
-            <strong style="background-color: #CCCCCC">NOMBRE</strong>
-            <asp:TextBox ID="txtNom" runat="server" ReadOnly="true" style="position: relative; top: 4px; left: 14px; width: 256px">Aqui debería aparecer tu nombre</asp:TextBox>
-            <br />
-            <br />
-            <strong style="background-color: #CCCCCC">FECHA DE NACIMIENTO</strong>
-            <asp:TextBox ID="txtFecha" runat="server" style="position: relative; top: 2px; left: 16px; width: 140px">Tu fecha de nacimiento</asp:TextBox>
-            <br />
-            <br />
-            <asp:Button ID="btnConf" runat="server" Text="Confirmo que son mis datos" OnClick="btnReg_Click" BackColor="#00CC00" BorderColor="Black" BorderStyle="Solid" Height="39px" style="position: relative; top: 19px; left: 0px" />
-
-            <br />
-            <asp:Button ID="btnCancel" runat="server" Text="Cancelar" OnClick="btnCancel_Click" BackColor="#FF1111" BorderColor="Black" style="position: relative; top: -17px; left: 510px; height: 32px; width: 109px" />
-
-        </div>
+                                <br />
+                                <asp:Button ID="btnCancel" runat="server" Text="Cancelar" OnClick="btnCancel_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </form>
 </body>
 </html>
