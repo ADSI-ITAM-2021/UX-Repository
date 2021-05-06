@@ -19,13 +19,13 @@ namespace miVacuna
             }
             else
             {
-                Response.Redirect("Index.aspx");
+                Response.Redirect("Inicio.aspx");
             }
         }
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Index.aspx");
+            Response.Redirect("Inicio.aspx");
         }
 
         protected void btnReg_Click(object sender, EventArgs e)

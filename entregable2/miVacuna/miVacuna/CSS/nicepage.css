@@ -30762,6 +30762,9 @@ a.u-link.u-text-hover-palette-1-light-3:hover {
 a.u-button-style.u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"] {
   color: #478ac9 !important;
+    top: 39px;
+    left: 0px;
+    width: 247px;
 }
 a.u-button-style.u-text-palette-1-base:hover,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"]:hover,

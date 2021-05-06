@@ -34,7 +34,7 @@ namespace miVacuna
             }
             else
             {
-                Response.Redirect("Index.aspx");
+                Response.Redirect("Inicio.aspx");
             }
         }
 

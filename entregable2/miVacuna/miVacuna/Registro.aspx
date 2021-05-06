@@ -37,7 +37,7 @@
     <form id="f1" runat="server">
         <header class="u-clearfix u-header u-header" id="sec-7ea4">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-                <a href="Index.aspx" class="u-image u-logo u-image-1">
+                <a href="Inicio.aspx" class="u-image u-logo u-image-1">
                     <img src="images/miVac.png" class="u-logo-image u-logo-image-1" />
                 </a>
                 <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="u-nav-container">
                         <ul class="u-nav u-unstyled u-nav-1">
-                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Index.aspx" style="padding: 10px 20px;">Inicio</a>
+                            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Inicio.aspx" style="padding: 10px 20px;">Inicio</a>
                             </li>
                             <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Info.aspx" style="padding: 10px 20px;">Información</a>
                             </li>
@@ -72,7 +72,7 @@
                             <div class="u-sidenav-overflow">
                                 <div class="u-menu-close"></div>
                                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Index.aspx">Inicio</a>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Inicio.aspx">Inicio</a>
                                     </li>
                                     <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Info.aspx">Información</a>
                                     </li>
@@ -106,7 +106,7 @@
                                     <asp:TextBox ID="txtCorreo" runat="server" Style="position: relative; top: -21px; left: 41px; margin-bottom: 0px" Width="235px"></asp:TextBox>
                                 </strong>
                                 <br />
-                                <asp:Button ID="btnConf" runat="server" Text="Confirmar datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" />                                
+                                <asp:Button ID="btnConf" runat="server" Text="Confirmar datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="267px" />                                
                             </div>
                         </div>
                     </div>
