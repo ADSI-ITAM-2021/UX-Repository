@@ -25,7 +25,9 @@
           height:100%;
         }
         body{
-          height:100%;
+          height:571px;
+            top: 9px;
+            left: 6px;
         }
         .u-section-1 {
             background-image: url("images/cf.jpg");
@@ -104,14 +106,24 @@
                     <div class="u-layout-row">
                         <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
                             <div class="u-container-layout u-valign-middle u-container-layout-1">
-                                <h1 class="u-text u-text-1" style="font-size: 50px">Calendario</h1>
+                                <h1 class="u-text u-text-1" style="font-size: 50px">Etapas de vacunación</h1>
                                 <br />
-                                <h1 class="u-text u-text-1" style="font-size: 50px">Por ahora es fase de adultos entre 50 y 60 años.</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <asp:Image ID="Image1" runat="server" Height="522px" ImageUrl="~/images/etapa1.png" Width="619px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image2" runat="server" Height="515px" ImageUrl="~/images/etapa2.png" Width="622px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image3" runat="server" Height="563px" ImageUrl="~/images/etapa3.png" Width="616px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image4" runat="server" Height="494px" ImageUrl="~/images/etapa4.png" Width="614px" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image5" runat="server" Height="519px" ImageUrl="~/images/etapa5.png" Width="610px" />
+&nbsp;<asp:Image ID="Image6" runat="server" ImageUrl="~/images/etapa6.png" Width="611px" />
+            <br />
         </section>
 
     </form>
