@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Calendario.aspx.cs" Inherits="miVacuna.Calendario" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,9 +26,7 @@
           height:100%;
         }
         body{
-          height:571px;
-            top: 9px;
-            left: 6px;
+          height:100%;
         }
         .u-section-1 {
             background-image: url("images/cf.jpg");
@@ -41,6 +40,13 @@
             background-position: 0% 100%;
             height:100%;
         }
+        
+        .divC{
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+                
     </style>
 
 
@@ -100,32 +106,35 @@
                 </nav>
             </div>
         </header>
-        <section class="u-clearfix u-image u-valign-middle u-section-1" id="carousel_bd93" data-image-width="1980" data-image-height="1232">
-            <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                    <div class="u-layout-row">
-                        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">
-                                <h1 class="u-text u-text-1" style="font-size: 50px">Etapas de vacunación</h1>
-                                <br />
-                            </div>
-                        </div>
+        <section style="background-image: url('images/cf.jpg');" data-image-width="1980" data-image-height="1300">
+            <div style="padding-left: 50px; padding-right: 50px;">
+                <h1 class="u-text u-text-1" style="font-size: 50px; font-weight: bold">Etapas de vacunación</h1>
+                <div style="padding-left: 50px; padding-right: 50px;">
+                    <div class="divC">
+                        <img src="images/etapa1.png" style="height: 500px; width: 100%;" />
+                    </div>
+                    <div class="divC">
+                        <img src="images/etapa2.png" style="height: 500px; width: 100%;" />
+                    </div>
+                    <div class="divC">
+                        <img src="images/etapa3.png" style="height: 500px; width: 100%;" />
+                    </div>
+                </div>
+                <div style="padding-left: 50px; padding-right: 50px;">
+                    <div class="divC">
+                        <img src="images/etapa4.png" style="height: 500px; width: 100%;" />
+                    </div>
+                    <div class="divC">
+                        <img src="images/etapa5.png" style="height: 500px; width: 100%;" />
+                    </div>
+                    <div class="divC">
+                        <img src="images/etapa6.png" style="height: 500px; width: 100%;" />
                     </div>
                 </div>
             </div>
-            <asp:Image ID="Image1" runat="server" Height="522px" ImageUrl="~/images/etapa1.png" Width="619px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image2" runat="server" Height="515px" ImageUrl="~/images/etapa2.png" Width="622px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image3" runat="server" Height="563px" ImageUrl="~/images/etapa3.png" Width="616px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image4" runat="server" Height="494px" ImageUrl="~/images/etapa4.png" Width="614px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image5" runat="server" Height="519px" ImageUrl="~/images/etapa5.png" Width="610px" />
-&nbsp;<asp:Image ID="Image6" runat="server" ImageUrl="~/images/etapa6.png" Width="611px" />
-            <br />
         </section>
 
     </form>
 </body>
 </html>
+

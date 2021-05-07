@@ -1,21 +1,22 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="miVacuna.O4" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="miVacuna.JS.Inicio" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta charset="utf-8"/>
-    <meta name="keywords" content="Stay-at-home, Mental Health, Plan, Best Selling Online Courses‎, Relax, This place is special..., contact us"/>
-    <meta name="description" content=""/>
-    <meta name="page_type" content="np-template-header-footer-from-plugin"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Stay-at-home, Mental Health, Plan, Best Selling Online Courses‎, Relax, This place is special..., contact us" />
+    <meta name="description" content="" />
+    <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>Mi vacuna</title>
-    <link rel="stylesheet" href="CSS/nicepage.css" media="screen"/>
-    <link rel="stylesheet" href="CSS/Home.css" media="screen"/>
+    <link rel="stylesheet" href="CSS/nicepage.css" media="screen" />
+    <link rel="stylesheet" href="CSS/Home.css" media="screen" />
     <script class="u-script" type="text/javascript" src="JS/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="JS/nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.13.2, nicepage.com"/>
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"/>
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i"/>
+    <meta name="generator" content="Nicepage 3.13.2, nicepage.com" />
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" />
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i" />
 
 
 
@@ -41,14 +42,14 @@
         }
     </style>
 
-    
+
 </head>
-<body class="u-body">    
+<body class="u-body">
     <form id="f1" runat="server">
         <header class="u-clearfix u-header u-header" id="sec-7ea4">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
                 <a href="Inicio.aspx" class="u-image u-logo u-image-1">
-                    <img src="images/miVac.png" class="u-logo-image u-logo-image-1"/>
+                    <img src="images/miVac.png" class="u-logo-image u-logo-image-1" />
                 </a>
                 <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
                     <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -109,8 +110,8 @@
                                     Image from&nbsp;<b>
                                         <a href="https://www.freepik.com/free-photos-vectors/home" class="u-active-none u-border-2 u-border-white u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Freepik</a></b>
                                 </p>
-                                
-                                <a href="Registro.aspx" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" >Registrarme</a>
+
+                                <a href="Registro.aspx" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2">Registrarme</a>
                             </div>
                         </div>
                         <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-34 u-image-1">

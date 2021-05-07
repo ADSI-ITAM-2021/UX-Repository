@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Confirma.aspx.cs" Inherits="miVacuna.Confirma" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -103,7 +104,7 @@
                 <div class="u-layout">
                     <div class="u-layout-row">
                         <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">                                
+                            <div class="u-container-layout u-valign-middle u-container-layout-1">
                                 <h2 class="u-text u-text-2">Registro</h2>
                                 <br />
                                 <strong style="background-color: #CCCCCC">CURP</strong>
@@ -122,11 +123,11 @@
                                 <asp:TextBox ID="txtFecha" runat="server" Style="position: relative; top: 2px; left: 15px; width: 140px">Tu fecha de nacimiento</asp:TextBox>
                                 <br />
                                 <br />
-                                <asp:Button ID="btnConf" runat="server" Text="Confirmo que son mis datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="385px" />
+                                <asp:Button ID="btnConf" runat="server" Text="Confirmo que son mis datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="378px" />
 
                                 <br />
                                 <asp:Button ID="btnCancel" runat="server" Text="Cancelar" OnClick="btnCancel_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" />
-                                
+
                             </div>
                         </div>
                     </div>

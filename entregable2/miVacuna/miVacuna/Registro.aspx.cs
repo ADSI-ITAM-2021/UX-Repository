@@ -16,10 +16,11 @@ namespace miVacuna
 
         protected void btnReg_Click(object sender, EventArgs e)
         {
-            if (txtCurp.Text == "" || txtCorreo.Text =="")
+            if (txtCurp.Text == "" || txtCorreo.Text == "")
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Llena los campos para continuar')", true);
-            }else if(txtCurp.Text.Length != 18)
+            }
+            else if (txtCurp.Text.Length != 18)
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('CURP inválido')", true);
             }

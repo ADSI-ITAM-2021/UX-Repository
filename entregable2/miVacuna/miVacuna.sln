@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miVacuna", "miVacuna\miVacuna.csproj", "{7A8F34B7-912A-4302-915D-B11C4220B3FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miVacuna", "miVacuna\miVacuna.csproj", "{9FC043D0-BC1F-4114-8E1A-DF62C6CFCDD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A8F34B7-912A-4302-915D-B11C4220B3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A8F34B7-912A-4302-915D-B11C4220B3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A8F34B7-912A-4302-915D-B11C4220B3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A8F34B7-912A-4302-915D-B11C4220B3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC043D0-BC1F-4114-8E1A-DF62C6CFCDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC043D0-BC1F-4114-8E1A-DF62C6CFCDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC043D0-BC1F-4114-8E1A-DF62C6CFCDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC043D0-BC1F-4114-8E1A-DF62C6CFCDD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {30F70907-4FBF-4E43-8DCE-9F088A45035F}
+		SolutionGuid = {9E39AEB7-27A1-4C0E-8D7C-929F740799FA}
 	EndGlobalSection
 EndGlobal

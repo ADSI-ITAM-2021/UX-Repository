@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Final.aspx.cs" Inherits="miVacuna.Final" %>
+
 <!DOCTYPE html>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -120,4 +122,5 @@
     </form>
 </body>
 </html>
+
 

@@ -99,12 +99,12 @@
                 </nav>
             </div>
         </header>
-        <section class="u-clearfix u-image u-valign-middle u-section-1" id="carousel_bd93" data-image-width="1980" data-image-height="1232">
+        <section class="u-clearfix u-image u-valign-middle u-section-1" id="carousel_bd93" data-image-width="1980" data-image-height="1300">
             <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                 <div class="u-layout">
                     <div class="u-layout-row">
                         <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">                                
+                            <div class="u-container-layout u-valign-middle u-container-layout-1">
                                 <h2 class="u-text">Elección de fecha y lugar</h2>
                                 <br />
                                 Estado<br />
@@ -124,9 +124,8 @@
                                 <asp:Calendar ID="fechaVac" runat="server" OnDayRender="fechaVac_DayRender" OnSelectionChanged="fechaVac_SelectionChanged" BackColor="White"></asp:Calendar>
                                 <br />
                                 Fecha de vacunación
-                                <asp:TextBox ID="txtFechaV" runat="server"></asp:TextBox>
-                                <br />
-                                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="483px" />                                
+                                <asp:TextBox ID="txtFechaV" runat="server"></asp:TextBox>                                
+                                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="510px" />
                             </div>
                         </div>
                     </div>

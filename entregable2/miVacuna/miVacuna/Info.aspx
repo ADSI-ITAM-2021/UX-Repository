@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="miVacuna.Info" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -26,14 +27,12 @@
         }
         body{
           height:100%;
-            top: -63px;
-            left: -15px;
         }
         .u-section-1 {
-            background-image: url("images/cf.jpg");
+            background-image: url('images/cf.jpg');
             background-position: 50% 50%;
             min-height: 668px;
-            height:100%;
+            height:624px;
         }
         .u-section-1 .u-image-1 {
             min-height: 667px;
@@ -41,9 +40,13 @@
             background-position: 0% 100%;
             height:100%;
         }
-        #f1 {
-            margin-bottom: 0px;
+        .divC{
+          float: left;
+          width: 33.33%;
+          padding: 5px;
         }
+                
+
     </style>
 
 
@@ -103,58 +106,49 @@
                 </nav>
             </div>
         </header>
-        <section class="u-clearfix u-image u-valign-middle u-section-1" id="carousel_bd93" data-image-width="1980" data-image-height="1232">
-            <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                    <div class="u-layout-row">
-                        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">
-                                <h1 class="u-text u-text-1" style="font-size: 50px">Vacunación Covid</h1>
-                                <p style="height: 667px">
-                                    <asp:Label ID="Label2" runat="server" Style="z-index: 1; left: 181px; top: 113px; position: absolute; height: 44px; width: 924px" Text="Se entiende por vacuna cualquier preparación destinada a generar inmunidad contra una enfermedad estimulando la producción de anticuerpos. " Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label3" runat="server" Font-Size="Large" Style="z-index: 1; left: 185px; top: 179px; position: absolute; width: 922px" Text="La vacunación es una forma sencilla, inocua y eficaz de protegernos contra enfermedades dañinas antes de entrar en contacto con ellas. Las vacunas activan las defensas naturales del organismo para que aprendan a resistir a infecciones específicas, y fortalecen el sistema inmunitario."></asp:Label>
-                                    <asp:Label ID="Label4" runat="server" BackColor="#9999FF" BorderColor="#3333CC" BorderStyle="Dashed" Font-Size="Large" ForeColor="Black" Style="z-index: 1; left: 227px; top: 271px; position: absolute; height: 60px; width: 807px" Text="                                                                                                      Sin las vacunas, las epidemias causadas por muchas enfermedades prevenibles podrían reaparecer y llevar a un aumento en el número de casos por enfermedad, discapacidad y muertes."></asp:Label>
-                                    <asp:Label ID="Label6" runat="server" Font-Names="Arial" Font-Size="X-Large" Text="¿Qué contiene?" Font-Bold="True" Style="z-index: 1; left: 177px; top: 363px; position: absolute"></asp:Label>
-                                    <asp:Label ID="Label7" runat="server" Style="z-index: 1; left: 187px; top: 580px; position: absolute; height: 33px; width: 888px; bottom: 282px; margin-top: 1px;" Text="Estabilizantes: protegen la vacuna durante su transporte y almacenamiento." Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label9" runat="server" Style="z-index: 1; left: 186px; top: 468px; position: absolute; height: 44px; width: 924px" Text="El antígeno: es una forma muerta o debilitada de un patógeno (por ejemplo, un virus o una bacteria) que prepara a nuestro organismo para reconocer y combatir una determinada enfermedad en el futuro." Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label10" runat="server" Style="z-index: 1; left: 39px; top: 755px; position: absolute; height: 44px; width: 924px; margin-top: 0px;" Text="Después de vacunarnos, nuestro sistema inmunitario produce anticuerpos, como ocurre cuando nos exponemos a una enfermedad, con la diferencia de que las vacunas contienen solamente patógenos (como virus o bacterias).  La mayoría de las vacunas se inyectan, pero otras se ingieren (vía oral) o se nebulizan en la nariz." Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label13" runat="server" Style="z-index: 1; left: 186px; top: 520px; position: absolute; height: 22px; width: 888px" Text="Adyuvantes: ayudan a incrementar la respuesta de nuestras defensas y, así, facilitan la acción de las vacunas. " Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label14" runat="server" Style="z-index: 1; left: 184px; top: 551px; position: absolute; height: 26px; width: 888px" Text="Conservantes: garantizan que la vacuna mantiene su eficacia." Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label16" runat="server" Style="z-index: 1; left: 184px; top: 406px; position: absolute; height: 44px; width: 924px" Text="Todos los componentes de las vacunas son importantes para garantizar su inocuidad y su eficacia. Estos son algunos de ellos:" Font-Size="Large"></asp:Label>
-                                </p>
-                                <p style="height: 312px">
-                                    <asp:Label ID="Label18" runat="server" Font-Names="Arial" Font-Size="X-Large" Text="¿Cómo funciona?" Font-Bold="True" Style="z-index: 1; left: 31px; top: 22px; position: absolute"></asp:Label>
-                                    <asp:Image ID="Image2" runat="server" Style="z-index: 1; left: 829px; top: 597px; position: absolute; height: 122px; width: 129px;" ImageUrl="~/images/mundo.jpg" />
-                                    <asp:Image ID="Image3" runat="server" Style="z-index: 1; top: 589px; position: absolute; left: 348px; height: 126px; width: 153px;" ImageUrl="~/images/todos.png" />
-                                    <asp:Image ID="Image4" runat="server" Style="z-index: 1; left: 586px; top: 592px; position: absolute; margin-top: 0px; height: 125px; width: 170px;" ImageUrl="~/images/erradicar.jpg" />
-                                    <asp:Label ID="Label19" runat="server" Style="z-index: 1; left: 139px; top: 747px; position: absolute; height: 43px; width: 160px; right: 696px;" Text="Nos protegemos a nosotros mismos" Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label20" runat="server" Style="z-index: 1; left: 833px; top: 745px; position: absolute; height: 43px; width: 178px; margin-top: 2px;" Text="Beneficiamos a la economía" Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label21" runat="server" Style="z-index: 1; left: 349px; top: 748px; position: absolute; height: 43px; width: 160px" Text="Protegemos a los que nos rodean" Font-Size="Large"></asp:Label>
-                                    <asp:Label ID="Label22" runat="server" Style="z-index: 1; left: 585px; top: 748px; position: absolute; height: 43px; width: 178px" Text="Ayudamos a erradicar la enfermedad" Font-Size="Large"></asp:Label>
-                                </p>
-                            </div>
-                        </div>
+        <section style="background-image: url('images/cf.jpg');" data-image-width="1980" data-image-height="1300">
+            <div style="padding-left: 50px; padding-right: 50px;">
+                <h1 class="u-text u-text-1" style="font-size: 50px; font-weight: bold">Vacunación Covid</h1>
+                <h2 class="u-text" style="font-weight: bold;">¿Qué es una vacuna? </h2>
+                <p style="font-size: 140%; font-family: Arial">
+                    Se entiende por vacuna cualquier preparación destinada a generar inmunidad contra una enfermedad estimulando la producción de anticuerpos. La vacunación es una forma sencilla, inocua y eficaz de protegernos contra enfermedades dañinas antes de entrar en contacto con ellas. 
+                        Las vacunas activan las defensas naturales del organismo para que aprendan a resistir a infecciones específicas, y fortalecen el sistema inmunitario.                                        
+                        Sin las vacunas, las epidemias causadas por muchas enfermedades prevenibles podrían reaparecer y llevar a un aumento en el número de casos por enfermedad, discapacidad y muertes.                                        
+                </p>
+                <h2 class="u-text" style="font-weight: bold;">¿Qué contiene? </h2>
+                <p style="font-size: 140%; font-family: Arial">
+                    Todos los componentes de las vacunas son importantes para garantizar su inocuidad y su eficacia. Estos son algunos de ellos:
+                </p>
+                <ul style="list-style-type: circle; padding-left: 20px; font-size: 140%; font-family: Arial">
+                    <li>Estabilizantes: protegen la vacuna durante su transporte y almacenamiento. </li>
+                    <li>El antígeno: es una forma muerta o debilitada de un patógeno (por ejemplo, un virus o una bacteria) que prepara a nuestro organismo para reconocer y combatir una determinada enfermedad en el futuro. </li>
+                    <li>Adyuvantes: ayudan a incrementar la respuesta de nuestras defensas y, así, facilitan la acción de las vacunas.</li>
+                    <li>Conservantes: garantizan que la vacuna mantiene su eficacia.</li>
+                </ul>
 
 
-
-                    </div>
-                </div>
+                <h2 class="u-text" style="font-weight: bold;">¿Cómo funciona? </h2>
+                <p style="font-size: 140%; font-family: Arial">
+                    Después de vacunarnos, nuestro sistema inmunitario produce anticuerpos, como ocurre cuando nos exponemos a una enfermedad, con la diferencia de que las vacunas contienen solamente patógenos (como virus o bacterias).  La mayoría de las vacunas se inyectan, pero otras se ingieren (vía oral) o se nebulizan en la nariz.
+                </p>
             </div>
         </section>
-        <p style="height: 312px; z-index: 1; left: 0px; top: 248px; position: absolute; width: 1025px">
-                                    <asp:Label ID="Label25" runat="server" Font-Names="Arial" Font-Size="X-Large" Text="¿Qué es una vacuna?" Font-Bold="True" Style="z-index: 1; left: 0px; top: 0px; position: absolute"></asp:Label>
-                                    </p>
-        <p style="height: 312px">
-            &nbsp;</p>
-        <p style="height: 312px">
-            &nbsp;</p>
-        <p style="height: 6px">
-            &nbsp;</p>
-        <p style="height: 6px">
-            &nbsp;</p>
-        <p style="height: 6px">
-            <asp:Label ID="Label24" runat="server" Font-Size="X-Large" style="z-index: 1; left: 133px; top: 1341px; position: absolute" Text="Beneficios de vacunarse"></asp:Label>
-        </p>
+        <div style="padding-left: 50px; padding-right: 50px;">
+            <h2 class="u-text" style="font-weight: bold;">Beneficios de vacunarse</h2>
+            <div class="divC">
+                <img src="images/mundo.jpg" style="height: 125px; width: 125px;" />
+                <p style="font-size: 115%; font-family: Arial">Nos protegemos a nosotros mismos</p>
+            </div>
+            <div class="divC">
+                <img src="images/todos.png" style="height: 125px; width: 125px;" />
+                <p style="font-size: 115%; font-family: Arial">Protegemos a los que nos rodean</p>
+            </div>
+            <div class="divC">
+                <img src="images/erradicar.jpg" style="width: 125px; height: 125px" />
+                <p style="font-size: 115%; font-family: Arial">Ayudamos a erradicar la enfermedad.</p>
+            </div>
+        </div>
     </form>
 </body>
 </html>
+

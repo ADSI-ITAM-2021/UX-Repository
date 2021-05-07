@@ -9,10 +9,9 @@ namespace miVacuna
 {
     public partial class Confirma : System.Web.UI.Page
     {
-        private string curp, correo;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(Session["curp"] != null && Session["correo"] != null)
+            if (Session["curp"] != null && Session["correo"] != null)
             {
                 txtCurp.Text = Session["curp"].ToString();
                 txtCorreo.Text = Session["correo"].ToString();
@@ -22,7 +21,6 @@ namespace miVacuna
                 Response.Redirect("Inicio.aspx");
             }
         }
-
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("Inicio.aspx");

@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registro.aspx.cs" Inherits="miVacuna.Registro" %>
+
 <!DOCTYPE html>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -30,7 +32,7 @@
                 background-position: 0% 100%;
             }
     </style>
-   
+
 
 </head>
 <body class="u-body">
@@ -106,7 +108,7 @@
                                     <asp:TextBox ID="txtCorreo" runat="server" Style="position: relative; top: -21px; left: 41px; margin-bottom: 0px" Width="235px"></asp:TextBox>
                                 </strong>
                                 <br />
-                                <asp:Button ID="btnConf" runat="server" Text="Confirmar datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="267px" />                                
+                                <asp:Button ID="btnConf" runat="server" Text="Confirmar datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="265px" />
                             </div>
                         </div>
                     </div>

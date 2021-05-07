@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace miVacuna
+namespace miVacuna.JS
 {
 
 
-    public partial class O4
+    public partial class Inicio
     {
 
         /// <summary>

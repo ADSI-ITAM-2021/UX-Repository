@@ -6,11 +6,11 @@ using System.Net.Mail;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 namespace miVacuna
 {
     public partial class Elegir : System.Web.UI.Page
     {
+
         private string curp, correo, nombre;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -53,7 +53,7 @@ namespace miVacuna
             txtFechaV.Text = fechaVac.SelectedDate.ToShortDateString();
         }
 
-       
+
         protected void btnConfirmar_Click(object sender, EventArgs e)
         {
             try
@@ -64,7 +64,7 @@ namespace miVacuna
                     var toAddress = new MailAddress(correo, curp);
                     const string fromPassword = "Yosshua98";
                     const string subject = "Confirmación de fecha y lugar de vacunación";
-                    string body = "Estimado "+nombre +":\n\n Tu cita está confirmada.\n\tFecha: " + fechaVac.SelectedDate.ToShortDateString() + "\n\tEstado: " + ddlEdo.SelectedValue.ToString() + "\n\tMunicipio: " + ddlMun.SelectedValue.ToString() + "\n\tLugar de vacunación: " + ddlLugar.SelectedValue.ToString()+"\n\n";
+                    string body = "Estimado " + nombre + ":\n\n Tu cita está confirmada.\n\tFecha: " + fechaVac.SelectedDate.ToShortDateString() + "\n\tEstado: " + ddlEdo.SelectedValue.ToString() + "\n\tMunicipio: " + ddlMun.SelectedValue.ToString() + "\n\tLugar de vacunación: " + ddlLugar.SelectedValue.ToString() + "\n\n";
 
                     var smtp = new SmtpClient
                     {
@@ -85,7 +85,8 @@ namespace miVacuna
                     }
                     Response.Redirect("Final.aspx");
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Hubo un error vuelve a intentarlo más tarde )", true);
 
