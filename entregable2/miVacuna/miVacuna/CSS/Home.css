@@ -3,10 +3,15 @@
 .u-section-1 .u-layout-wrap-1 {
   width: calc(((100% - 1140px) / 2) + 1140px);
   margin: 1px 0 1px auto;
+    top: 0px;
+    left: 0px;
 }
 
 .u-section-1 .u-layout-cell-1 {
   min-height: 667px;
+    top: -106px;
+    left: -20px;
+    height: 91px;
 }
 
 .u-section-1 .u-container-layout-1 {

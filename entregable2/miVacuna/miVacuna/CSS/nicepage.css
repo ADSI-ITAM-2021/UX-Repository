@@ -4071,6 +4071,9 @@ sup {
 }
 img {
   border-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -8380,6 +8383,8 @@ section.u-image,
 .u-group.u-image,
 .u-layout-cell.u-image {
   overflow: visible;
+    top: 97px;
+    left: 14px;
 }
 .u-text .u-image {
   display: inline-block;
@@ -33689,6 +33694,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-size: 1rem;
   letter-spacing: 0px;
+    top: 12px;
+    left: 294px;
 }
 
 .u-header .u-nav-2 {
