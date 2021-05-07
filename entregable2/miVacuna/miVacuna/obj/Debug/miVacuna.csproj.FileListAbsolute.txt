@@ -190,13 +190,6 @@ C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\obj\De
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\obj\Debug\miVacuna.csproj.CopyComplete
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\obj\Debug\miVacuna.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\obj\Debug\miVacuna.pdb
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Features.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.CommandLine.dll
@@ -222,13 +215,6 @@ C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Sy
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\System.Reflection.Metadata.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\System.Text.Encodings.Web.dll
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\System.ValueTuple.dll
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Abstractions.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Extensions.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.Http.Features.xml
-C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.AspNetCore.WebUtilities.xml
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.xml
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.Abstractions.xml
 C:\Users\Yosshua\source\repos\UX-Repository\entregable2\miVacuna\miVacuna\bin\Microsoft.Extensions.Configuration.Binder.xml
