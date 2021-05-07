@@ -108,11 +108,11 @@
                                 <h2 class="u-text u-text-2">Registro</h2>
                                 <br />
                                 <strong style="background-color: #CCCCCC">CURP</strong>
-                                <asp:TextBox ID="txtCurp" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 253px"></asp:TextBox>
+                                <asp:TextBox ID="txtCurp" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 256px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <strong style="background-color: #CCCCCC">CORREO </strong>
-                                <asp:TextBox ID="txtCorreo" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 253px"></asp:TextBox>
+                                <asp:TextBox ID="txtCorreo" runat="server" ReadOnly="true" Style="position: relative; top: 5px; left: 15px; width: 256px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <strong style="background-color: #CCCCCC">NOMBRE</strong>
@@ -120,7 +120,7 @@
                                 <br />
                                 <br />
                                 <strong style="background-color: #CCCCCC">FECHA DE NACIMIENTO</strong>
-                                <asp:TextBox ID="txtFecha" runat="server" Style="position: relative; top: 2px; left: 15px; width: 140px">Tu fecha de nacimiento</asp:TextBox>
+                                <asp:TextBox ID="txtFecha" runat="server" Style="position: relative; top: 2px; left: 15px; width: 256px">Tu fecha de nacimiento</asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Button ID="btnConf" runat="server" Text="Confirmo que son mis datos" OnClick="btnReg_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="378px" />

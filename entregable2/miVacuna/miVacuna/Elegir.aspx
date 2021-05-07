@@ -130,8 +130,8 @@
                 </div>
             </div>
         </section>
-        <section >
-            <div class=" container">
+        <section>
+            <div class=" container" >
                 <div id="mapid" style="width: auto; height: 500px; position: relative; outline: none;" class="leaflet-container leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag" tabindex="0">
                     <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-225px, 3px, 0px);">
                         <div class="leaflet-pane leaflet-tile-pane">
@@ -192,47 +192,58 @@
             </div>
             
         </section>
-        <section style="background-image: url('images/cf.jpg');" data-image-width="1980" data-image-height="1300">
-            <div>
-                <br />
-                <asp:Calendar ID="fechaVac" runat="server" OnDayRender="fechaVac_DayRender" OnSelectionChanged="fechaVac_SelectionChanged" BackColor="White"></asp:Calendar>
-                <br />
-                Fecha de vacunación
-                                <asp:TextBox ID="txtFechaV" runat="server"></asp:TextBox>
-                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="510px" />
+        <section class="u-clearfix u-image u-valign-middle u-section-1"  data-image-width="1980" data-image-height="1300">
+            <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+                <div class="u-layout">
+                    <div class="u-layout-row">
+                        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26 u-layout-cell-1">
+                            <div class="u-container-layout u-valign-middle u-container-layout-1">
+                                <div>
+                                    <asp:Calendar ID="fechaVac" runat="server" OnDayRender="fechaVac_DayRender" OnSelectionChanged="fechaVac_SelectionChanged" BackColor="White"></asp:Calendar>
+                                    <br />
+                                    Fecha de vacunación
+                                    <asp:TextBox ID="txtFechaV" runat="server"></asp:TextBox>
+                                    <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar lugar y fecha de vacunación" OnClick="btnConfirmar_Click" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-font-oswald u-hover-palette-1-light-2 u-radius-0 u-text-palette-1-base u-white u-btn-2" Width="510px" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <script>
-
-                var mymap = L.map('mapid').setView([19.346070506230685, -99.1999386386258], 16);
-
-                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-                    maxZoom: 18,
-                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                    id: 'mapbox/streets-v11',
-                    tileSize: 512,
-                    zoomOffset: -1
-                }).addTo(mymap);
-
-                L.marker([19.346070506230685, -99.1999386386258]).addTo(mymap)
-                    .bindPopup("ITAM").openPopup();
-
-
-
-                var popup = L.popup();
-
-                function onMapClick(e) {
-                    popup
-                        .setLatLng(e.latlng)
-                        .setContent("Diste clic en: " + e.latlng.toString())
-                        .openOn(mymap);
-                }
-
-                mymap.on('click', onMapClick);
-
-            </script>
         </section>
+        
+            
+        <script>
+
+            var mymap = L.map('mapid').setView([19.346070506230685, -99.1999386386258], 16);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                maxZoom: 18,
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1
+            }).addTo(mymap);
+
+            L.marker([19.346070506230685, -99.1999386386258]).addTo(mymap)
+                .bindPopup("ITAM").openPopup();
+
+
+
+            var popup = L.popup();
+
+            function onMapClick(e) {
+                popup
+                    .setLatLng(e.latlng)
+                    .setContent("Diste clic en: " + e.latlng.toString())
+                    .openOn(mymap);
+            }
+
+            mymap.on('click', onMapClick);
+
+        </script>        
     </form>
 </body>
 </html>
