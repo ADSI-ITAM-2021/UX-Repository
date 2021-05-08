@@ -7,4 +7,6 @@ Entonces, al llegar a esa página simplemente podría darse clic en alguna de la
 
 Debido a que es un prototipo todavía, solo se incluyen lugares de ejemplo y no se valida que sea la etapa de vacunación de la persona a partir de su CURP.
 
+Para que el CURP sea validado deberá tener 18 caracteres, la cantidad que estos tienen en México.
+
 
